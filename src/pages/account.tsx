@@ -16,7 +16,6 @@ const Home: NextPage = () => {
         <Flex css={{ mt: '10%' }} justify={'center'}>
           <TabNav activeRoute={activeRoute} />
         </Flex>
-        <Box>Account</Box>
       </Container>
     </>
   );
