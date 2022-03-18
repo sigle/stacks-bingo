@@ -8,7 +8,7 @@ export const TabNav = (activeRoute: any) => {
     <Container>
       <Flex direction={'row'} justify={'between'}>
         <Flex direction={'row'} align={'center'} justify={'between'}>
-          <div style={{ paddingTop: 40 }} className="nes-container is-dark">
+          <div style={{ paddingTop: 20 }} className="nes-container is-dark">
             <Flex gap={'10'} direction={'row'}>
               <Link href="/">
                 <a
