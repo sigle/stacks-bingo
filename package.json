@@ -20,6 +20,11 @@
     ]
   },
   "dependencies": {
+    "@stacks/auth": "^3.3.0",
+    "@stacks/connect": "^6.4.1",
+    "@stacks/connect-react": "^13.0.2",
+    "@stacks/network": "^3.3.0",
+    "@stacks/transactions": "^3.3.0",
     "@stitches/react": "1.2.5",
     "next": "11.1.2",
     "react": "17.0.2",
