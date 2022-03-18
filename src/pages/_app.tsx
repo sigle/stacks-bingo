@@ -4,6 +4,7 @@ import { globalCss } from '../stitches.config';
 const globalStyles = globalCss({
   body: {
     // Insert global style here
+    backgroundColor: '#070707',
   },
 });
 
