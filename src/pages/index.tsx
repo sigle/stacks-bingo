@@ -38,7 +38,7 @@ const Home: NextPage = () => {
               max="100"
             ></progress>
 
-            <label for="name_field" style={{ textAlign: 'center' }}>
+            <label htmlFor="name_field" style={{ textAlign: 'center' }}>
               <Text css={{ textAlign: 'center', color: 'white', mt: '$3' }}>
                 Deposit amount
               </Text>
