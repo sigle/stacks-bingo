@@ -1,6 +1,6 @@
-# nextjs-starter
+# Stacks Bingo
 
-Next.js starter using the latest tech I use to create projects.
+Stacks bingo is a no loss lottery on Stacks eco system.
 
 ## Tech
 
