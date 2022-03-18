@@ -44,12 +44,16 @@ const Home: NextPage = () => {
               </Text>
             </label>
             <input
-              style={{ maxWidth: '25%' }}
+              style={{ maxWidth: '25%', backgroundColor: '#070707' }}
               type="text"
               id="name_field"
               className="nes-input is-dark"
               placeholder="STX 0.00"
             ></input>
+
+            <button type="button" className="nes-btn is-success">
+              REVIEW DEPOSIT
+            </button>
           </Flex>
         </Flex>
       </Container>
