@@ -9,7 +9,11 @@ export const TabNav = (activeRoute: any) => {
       <Flex direction={'row'} justify={'between'}>
         <Flex direction={'row'} align={'center'} justify={'between'}>
           <div
-            style={{ paddingTop: 20, backgroundColor: '#070707' }}
+            style={{
+              paddingTop: 20,
+              backgroundColor: '#070707',
+              borderImageRepeat: 'unset',
+            }}
             className="nes-container is-dark is-rounded"
           >
             <Flex gap={'10'} direction={'row'}>

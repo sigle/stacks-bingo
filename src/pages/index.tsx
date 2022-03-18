@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   const activeRoute = router.pathname;
   return (
     <>
-      <Container css={{ mt: '3%', mr: '3%', ml: '3%' }}>
+      <Container css={{ mt: '3%', mr: '3%', ml: '3%', mb: '10%' }}>
         <Header />
         <Flex css={{ mt: '7%' }} justify={'center'} direction={'column'}>
           <TabNav activeRoute={activeRoute} />
@@ -32,9 +32,11 @@ const Home: NextPage = () => {
             </Text>
 
             <progress
-              style={{ maxWidth: '50%' }}
+              style={{
+                maxWidth: '50%',
+              }}
               className="nes-progress is-warning"
-              value="50"
+              value="30"
               max="100"
             ></progress>
 
@@ -51,7 +53,11 @@ const Home: NextPage = () => {
               placeholder="STX 0.00"
             ></input>
 
-            <button type="button" className="nes-btn is-success">
+            <button
+              style={{ marginTop: '3%' }}
+              type="button"
+              className="nes-btn is-success"
+            >
               REVIEW DEPOSIT
             </button>
           </Flex>
