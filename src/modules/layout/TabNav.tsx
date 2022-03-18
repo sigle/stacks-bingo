@@ -8,7 +8,14 @@ export const TabNav = (activeRoute: any) => {
     <Container>
       <Flex direction={'row'} justify={'between'}>
         <Flex direction={'row'} align={'center'} justify={'between'}>
-          <div style={{ paddingTop: 40 }} className="nes-container is-dark">
+          <div
+            style={{
+              paddingTop: 20,
+              backgroundColor: '#070707',
+              borderImageRepeat: 'unset',
+            }}
+            className="nes-container is-dark is-rounded"
+          >
             <Flex gap={'10'} direction={'row'}>
               <Link href="/">
                 <a
@@ -16,9 +23,18 @@ export const TabNav = (activeRoute: any) => {
                     color: 'white',
                   }}
                 >
-                  <p className="title">
+                  <label>
+                    <input
+                      type="radio"
+                      className="nes-radio is-dark"
+                      name="answer-dark"
+                      checked={activeRoute.activeRoute === '/'}
+                    />
+                    <span>Deposit</span>
+                  </label>
+                  {/* <p className="title">
                     {activeRoute.activeRoute === '/' && '► '}Deposit
-                  </p>
+                  </p> */}
                 </a>
               </Link>
               <Link href="/prizes">
@@ -27,9 +43,15 @@ export const TabNav = (activeRoute: any) => {
                     color: 'white',
                   }}
                 >
-                  <p className="title">
-                    {activeRoute.activeRoute === '/prizes' && '► '}Prizes
-                  </p>
+                  <label>
+                    <input
+                      type="radio"
+                      className="nes-radio is-dark"
+                      name="answer-dark"
+                      checked={activeRoute.activeRoute === '/prizes'}
+                    />
+                    <span>Prizes</span>
+                  </label>
                 </a>
               </Link>
               <Link href="/account">
@@ -38,9 +60,15 @@ export const TabNav = (activeRoute: any) => {
                     color: 'white',
                   }}
                 >
-                  <p className="title">
-                    {activeRoute.activeRoute === '/account' && '► '}Account
-                  </p>
+                  <label>
+                    <input
+                      type="radio"
+                      className="nes-radio is-dark"
+                      name="answer-dark"
+                      checked={activeRoute.activeRoute === '/account'}
+                    />
+                    <span>Account</span>
+                  </label>
                 </a>
               </Link>
             </Flex>
