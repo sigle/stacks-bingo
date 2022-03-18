@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Container, Text, Flex, Box } from '../../ui';
+import { Container, Text, Flex } from '../../ui';
 
 export const Header = () => {
   return (
