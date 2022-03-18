@@ -10,6 +10,11 @@ export default class MyDocument extends Document {
             id="stitches"
             dangerouslySetInnerHTML={{ __html: getCssText() }}
           />
+          <link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+          <link
+            href="https://fonts.googleapis.com/css?family=Press+Start+2P"
+            rel="stylesheet"
+          ></link>
         </Head>
         <body>
           <Main />

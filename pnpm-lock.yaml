@@ -12,6 +12,7 @@ specifiers:
   eslint-config-next: 11.1.2
   husky: 7.0.2
   lint-staged: 11.2.3
+  nes.css: ^2.3.0
   next: 11.1.2
   prettier: 2.4.1
   react: 17.0.2
@@ -25,6 +26,7 @@ dependencies:
   '@stacks/network': 3.3.0
   '@stacks/transactions': 3.3.0
   '@stitches/react': 1.2.5_react@17.0.2
+  nes.css: 2.3.0
   next: 11.1.2_8e3522129ef2816b3c737f17aecb3a9d
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
@@ -2625,6 +2627,11 @@ packages:
   /natural-compare/1.4.0:
     resolution: {integrity: sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=}
     dev: true
+
+  /nes.css/2.3.0:
+    resolution: {integrity: sha512-lCFZs9vj3f5RVdbvTL/kSxiYsOARwSeAdJaMNo+bCgmWOO9x8ay7QpT4yQVKHy3r5Dttzd0uqVdpt3fvvx6EpQ==}
+    engines: {node: 10.x}
+    dev: false
 
   /next/11.1.2_8e3522129ef2816b3c737f17aecb3a9d:
     resolution: {integrity: sha512-azEYL0L+wFjv8lstLru3bgvrzPvK0P7/bz6B/4EJ9sYkXeW8r5Bjh78D/Ol7VOg0EIPz0CXoe72hzAlSAXo9hw==}

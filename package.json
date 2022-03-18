@@ -26,6 +26,7 @@
     "@stacks/network": "3.3.0",
     "@stacks/transactions": "3.3.0",
     "@stitches/react": "1.2.5",
+    "nes.css": "^2.3.0",
     "next": "11.1.2",
     "react": "17.0.2",
     "react-dom": "17.0.2"
