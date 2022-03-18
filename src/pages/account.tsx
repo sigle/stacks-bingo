@@ -1,12 +1,14 @@
 import type { NextPage } from 'next';
-import { styled } from '../stitches.config';
-
-const Box = styled('div', { background: '#549e52', color: '#f6f6f6' });
+import { Header } from '../modules/layout/Header';
+import { Container, Box } from '../ui';
 
 const Home: NextPage = () => {
   return (
     <>
-      <Box>Account</Box>
+      <Container css={{ mt: '3%', mr: '3%', ml: '3%' }}>
+        <Header />
+        <Box>Account</Box>
+      </Container>
     </>
   );
 };
