@@ -1,0 +1,37 @@
+{
+  "name": "stacks-bingo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write '**/*.{json,md,js,ts,jsx,tsx,yml,css}'",
+    "prepare": "husky install"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "lint-staged": {
+    "*.{json,md,js,ts,jsx,tsx,yml,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@stitches/react": "1.2.5",
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.30",
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2",
+    "husky": "7.0.2",
+    "lint-staged": "11.2.3",
+    "prettier": "2.4.1",
+    "typescript": "4.4.4"
+  }
+}
